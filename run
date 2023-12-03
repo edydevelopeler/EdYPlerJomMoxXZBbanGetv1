@@ -1058,7 +1058,7 @@ domain=$(cat /etc/xray/domain)
 <code>────────────────────</code>
 <i>Automatic Notification from</i>
 <i>Edy Tunneling</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"DEV 🐳","url":"https://t.me/kangbacox"},{"text":"FEDERASI🐬","url":"https://t.me/edysociety"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"OWNER 🐳","url":"https://t.me/kangbacox"},{"text":"FEDERASI🐬","url":"https://t.me/edysociety"}]]}'
    
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 
