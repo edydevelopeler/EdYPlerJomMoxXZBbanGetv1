@@ -47,9 +47,9 @@ clear;clear;clear
   # // Banner
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo -e "  Welcome To Edy VPN Tunneling ${BLUE}(${NC}${BLUE} New Edition ${NC}${BLUE})${NC}"
-echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${BLUE}EdyDevz ${NC}${BLUE}(${NC} ${BLUE} Edy Tunneling ${NC}${BLUE})${NC}"
-echo -e "       © Recode By EdyDevz ${BLUE}(${NC} 2023 ${BLUE})${NC}"
+echo -e "  2024 All in OWO Kunn | Kita Hantam Banteng Merah !!"
+echo -e "  Author : ${BLUE}EdyDevz ${NC}${BLUE}(${NC} ${BLUE} Edy Tunneling ${NC}${BLUE})${NC}"
+echo -e "  © Recode By EdyDevz ${BLUE}(${NC} 2023 ${BLUE})${NC}"
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo ""
 sleep 3
@@ -123,10 +123,10 @@ NC='\e[0m'
 clear
 ###
 LOGO
-echo -e "${merah}JANGAN INSTALL SCRIPT INI MENGGUNAKAN KONEKSI VPN!!!${FONT}"
+echo -e "${merah}JANGAN LUPA 2024 ALL IN OWO KUN NO DEBAT!!!!${FONT}"
 echo -e ""
 echo -e "${Green}DNS POINTING${FONT}(DNS-resolved IP address of the domain)"
-echo -e "${Green}Menuju Proses Penginstalan Dalam 8 Detik Lagi !!!"
+echo -e "${Green}Menuju Indonesia Emas 2069 Bersama Edy"
 echo ""
 sleep 8
 clear
@@ -346,7 +346,7 @@ echo -e " ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘
 echo -e "    │    ${YELLOW}Developeler${FONT} (C)$GRAY t.me/kangbacox | SC Gratis │"
 echo -e "    └───────────────────────────────────────────────┘"
 echo -e "         ${RED}Autoscript Gratisan Kok Dijual Anjg${FONT} "    
-echo -e "${RED}Tau kan musti ngapain? 2024 ALL IN OWO KUN !!! Hantam PDI !!${FONT}
+echo -e "${RED}Tau kan musti ngapain? 2024 ALL IN OWO KUN !!! Hantam PDI !!${FONT}"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "Your Select Domain For Tunneling"
 echo -e ""
@@ -1047,7 +1047,7 @@ domain=$(cat /etc/xray/domain)
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b> ⚠️ AUTOSCRIPT EdyDEV ⚠️ </b>
+<b> ⚠️ AUTOSCRIPT EDY TUNNEL ⚠️ </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -1058,7 +1058,7 @@ domain=$(cat /etc/xray/domain)
 <code>────────────────────</code>
 <i>Automatic Notification from</i>
 <i>Edy Tunneling</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"OWNER 🐳","url":"https://t.me/kangbacox"},{"text":"FEDERASI🐬","url":"https://t.me/edysociety"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"OWNER🐳","url":"https://t.me/kangbacox"},{"text":"FEDERASI🐬","url":"https://t.me/edysociety"}]]}'
    
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 
