@@ -48,7 +48,7 @@ ns_domain_cloudflare1() {
 apt install jq curl -y
 clear
 
-read -rp "Sub Domain (Contoh: DevsTn): " sub
+read -rp "Sub Domain (Contoh: EdyJawa): " sub
 DOMAIN=edyjomoxa.biz.id
 echo $sub > /root/cfku
 SUB_DOMAIN=${sub}.edyjomoxa.biz.id
